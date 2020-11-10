@@ -16,3 +16,12 @@ set clipboard=unnamed " Use the system clipboard
 
 " Remaps
 imap jj <Esc>
+
+" Start gruvbox
+autocmd vimenter * colorscheme gruvbox
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'morhetz/gruvbox'
+
+call plug#end()
